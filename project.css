@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("img/traffic_in_winter_193731.jpg");
+    background-size: 1273px;
+    font-family: 'Righteous', cursive;
+}
+
+.web{
+    left: 12px;
+    position: relative;
+}
+
+.main-heading{
+    position: absolute;
+    left: 403px;
+    top: 56px;
+    font-size: 55px;
+}
+
+.box{
+    width: 594px;
+    height: 383px;
+    margin-left: 388px;
+    margin-top: 26px;
+    border: 3px solid black;
+    box-shadow: 2px 1px 7px black, -2px 1px 7px black;
+}
+
+.input1{
+    left: 424px;
+    top: 172px;
+    position: absolute;
+}   
+
+.prep-type{
+    position: absolute;
+    left: 709px;
+    top: 172px;
+    width: 196px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    height: 22px;
+    font-weight: bolder;
+}
+
+.prep-type:hover{
+    background-color: white;
+    border-color: blue;
+    width: 205px;
+    height: 28px;
+    font-weight: bolder;
+}
+
+.input2{
+    left: 424px;
+    top: 210px;
+    position: absolute;
+}   
+
+
+.accu-type{
+    position: absolute;
+    left: 709px;
+    top: 211px;
+    width: 196px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    height: 22px;
+    font-weight: bolder;
+}
+
+.accu-type:hover{
+    background-color: white;
+    border-color: blue;
+    width: 205px;
+    height: 28px;
+    font-weight: bolder;
+}
+
+.input3{
+    left: 424px;
+    top: 250px;
+    position: absolute;
+}   
+
+
+.temp-type{
+    position: absolute;
+    left: 709px;
+    top: 251px;
+    width: 196px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    height: 22px;
+    font-weight: bolder;
+}
+
+.temp-type:hover{
+    background-color: white;
+    border-color: blue;
+    width: 205px;
+    height: 28px;
+    font-weight: bolder;
+}
+
+
+.bt{
+    position: absolute;
+    top: 325px;
+    left: 501px;
+    width: 124px;
+    height: 41px;
+    background-color: white;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 21px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.bt-2{
+    position: absolute;
+    top: 325px;
+    left: 722px;
+    width: 162px;
+    height: 41px;
+    background-color: white;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 21px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.bt-2:hover{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.output{
+    background-color: white;
+    width: 583px;
+    position: absolute;
+    left: 388px;
+    margin-top: 43px;
+    border: 10px solid black;
+}
+
+
